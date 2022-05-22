@@ -1,5 +1,5 @@
 # Part1 Terraform
-This module creates following resources:
+This module creates the following resources:
 ## CICD:
 - CodeCommit - code repository
 - ElasticContainerRegistry - image repository (with lifecycle policy)
@@ -13,6 +13,5 @@ This module creates following resources:
 - codebuild policy
 - codepipeline policy
 - codecommit user
-- codecommit poweruser policy attachment to created user
+- codecommit poweruser policy attachment to the created user
 - codecommit git credentials
-
